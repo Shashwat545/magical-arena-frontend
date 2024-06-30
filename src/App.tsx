@@ -112,7 +112,7 @@ const App: React.FC = () => {
       </div>
 
       <div className="battle-form">
-        <h2>Start a new Battle</h2>
+        <h2>Start a new Battle {battleResult && "(Scroll below for results!)"}</h2>
         <label>
           First Player ID: <input type="number" placeholder="First Player ID" value={idFirst} onChange={e => setIdFirst(Number(e.target.value))} />
         </label>
