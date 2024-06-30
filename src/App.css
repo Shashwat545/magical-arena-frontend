@@ -3,6 +3,20 @@
   text-align: center;
 }
 
+.App h1 {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+.battle-result h2 {
+  text-decoration: underline;
+  color: red;
+}
+
+.add-player-form, .players-list, .battle-form {
+  text-align: left;
+  padding-top: 1vh;
+}
+
 .add-player-form, .players-list, .battle-form, .battle-result {
   margin: 20px;
 }
